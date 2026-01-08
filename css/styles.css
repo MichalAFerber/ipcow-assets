@@ -403,10 +403,23 @@ footer {
     position: relative;
 }
 
-.icon-heart, .icon-help {
+.icon-download, .icon-external-link, .icon-heart, .icon-help {
   display: inline-block;
   width: 20px;
   height: 20px;
+}
+
+
+.icon-download {
+  background-image: url('https://assets.ipcow.com/svg/download-alt.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.icon-external-link {
+  background-image: url('https://assets.ipcow.com/svg/external-link.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .icon-heart {
