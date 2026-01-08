@@ -1,0 +1,31 @@
+/* Google Sans Code */
+@font-face {
+  font-family: "Google Sans Code";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("https://assets.ipcow.com/fonts/GoogleSansCode-400.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Google Sans Code";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("https://assets.ipcow.com/fonts/GoogleSansCode-500.woff2") format("woff2");
+}
+/* Fira Code */
+@font-face {
+  font-family: "Fira Code";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("https://assets.ipcow.com/fonts/FiraCode-400.woff2") format("woff2");
+}
+/* Fredericka the Great */
+@font-face {
+  font-family: "Fredericka the Great";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("https://assets.ipcow.com/fonts/FrederickaTheGreat-400.woff2") format("woff2");
+}
