@@ -61,7 +61,6 @@ body::before {
 .wrapper {
   max-width: 900px;
   margin: 20px auto 0;
-  font-family: 'Fira Code', monospace;
 }
 
 header {
@@ -104,7 +103,6 @@ h3 {
 table {
   width: 100%;
   border-collapse: collapse;
-  font-family: monospace;
   font-size: 1em;
 }
 
@@ -134,7 +132,6 @@ td:nth-child(1) {
 }
 
 .ip-display {
-  font-family: 'Fira Code', monospace;
   font-size: 2em;
   color: var(--text);
   margin-bottom: 8px;
@@ -224,7 +221,6 @@ td:nth-child(1) {
 }
 
 .ua-value {
-  font-family: monospace;
   background: var(--ua-bg);
   padding: 2px 6px;
   border-radius: 4px;
@@ -407,6 +403,8 @@ footer {
     position: relative;
 }
 
+table, .ip-display, .wrapper, .ua-value { font-family: 'Fira Code', monospace; }
+
 .fredericka-the-great-regular {
   font-family: "Fredericka the Great", serif;
   font-weight: 400;
@@ -416,7 +414,7 @@ footer {
 
 .fredericka-the-great-medium {
   font-family: "Fredericka the Great", serif;
-  font-weight: 500;
+  font-weight: 400;
   font-style: normal;
   font-size: 4em;
 }
