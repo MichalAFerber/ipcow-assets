@@ -60,6 +60,7 @@ body::before {
 
 .wrapper {
   max-width: 900px;
+  margin: 20px auto 0;
   font-family: 'Fira Code', monospace;
 }
 
