@@ -6,7 +6,7 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url("/fonts/google-sans-code-400.woff2") format("woff2");
+  src: url("google-sans-code-400.woff2") format("woff2");
 }
 
 /* Fira Code - 400 */
@@ -15,7 +15,7 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url("/fonts/fira-code-400.woff2") format("woff2");
+  src: url("fira-code-400.woff2") format("woff2");
 }
 
 /* Fredericka the Great - 400 */
@@ -24,5 +24,5 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url("/fonts/fredericka-the-great-400.woff2") format("woff2");
+  src: url("fredericka-the-great-400.woff2") format("woff2");
 }
