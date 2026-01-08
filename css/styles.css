@@ -385,7 +385,7 @@ footer {
     background-color: #0056b3 !important; /* Darker shade on hover */
 }
 
-.ip-box, .ipv4-display, .info-box, .isp-info, .location-info {
+p, button, .ip-box, .ipv4-display, .info-box, .isp-info, .location-info {
     width: 100% !important;
     max-width: 100% !important;
     box-sizing: border-box; /* Includes padding/borders in width */
