@@ -403,6 +403,24 @@ footer {
     position: relative;
 }
 
+.icon-heart, .icon-help {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+}
+
+.icon-heart {
+  background-image: url('https://assets.ipcow.com/svg/heart.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.icon-help {
+  background-image: url('https://assets.ipcow.com/svg/help-circle.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
 table, .ip-display, .wrapper, .ua-value { font-family: 'Fira Code', monospace; }
 
 .fredericka-the-great-regular {
