@@ -45,7 +45,7 @@ body::before {
   content: '';
   position: fixed;
   background: black;
-  background-image: url('../img/bg.jpg');
+  background-image: url('../webp/bg.webp');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
