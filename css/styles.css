@@ -35,6 +35,7 @@ html, body {
   position: relative;
   margin: 0;
   font-family: 'Google Sans Code', sans-serif;
+  font-display: swap;
 }
 
 body {
@@ -440,6 +441,7 @@ table, .ip-display, .wrapper, .ua-value { font-family: 'Fira Code', monospace; }
   font-weight: 400;
   font-style: normal;
   font-size: 1em;
+  font-display: swap;
 }
 
 .fredericka-the-great-medium {
@@ -447,4 +449,5 @@ table, .ip-display, .wrapper, .ua-value { font-family: 'Fira Code', monospace; }
   font-weight: 400;
   font-style: normal;
   font-size: 4em;
+  font-display: swap;
 }
