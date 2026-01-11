@@ -197,6 +197,19 @@ function makeCopyable(element, textGetter = (el) => el.textContent.trim(), optio
         }, 1500);
     };
 
+    // Mobile support: "touchend" often works better than "click" to trigger actions on mobile,
+    // avoiding the 300ms delay and ghost clicks.
+    // However, if we add 'touchend', we must be careful not to trigger 'click' twice if the browser fires both.
+    // We'll use a simple debounce/flag or just rely on 'click' but ensure tap highlighting is suppressed.
+    // For now, let's keep 'click', but add 'touchend' that calls preventDefault() to stop the ghost click.
+    
+    element.addEventListener('touchend', (e) => {
+        // Prevent default to stop phantom clicks and selection behavior
+        // multiple listeners might be fine, but let's ensure we only copy once per tap.
+        if (e.cancelable) e.preventDefault();
+        doCopy(e);
+    });
+
     element.addEventListener('click', doCopy);
     element.addEventListener('keydown', (e) => {
         if (e.key === 'Enter' || e.key === ' ') {
